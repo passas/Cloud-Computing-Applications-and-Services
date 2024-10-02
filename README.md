@@ -1,5 +1,5 @@
 ```
-Net-worth: $2000 - $2500
+Net-worth: $2000 - $2500.
 ```
 
 ### Cloud Provider
