@@ -1,4 +1,4 @@
-## Cloud Specs
+## Cloud Specification
 
 | Spec | Detail |
 | --- | --- |
