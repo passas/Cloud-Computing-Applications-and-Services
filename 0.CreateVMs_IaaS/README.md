@@ -20,16 +20,17 @@ https://profile.broadcom.com/web/registration
 
 a) Download at https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro ;
 
-b) Install;
-> $ chmod +x &lt;file&gt;
->
-> $ sudo ./&lt;file&gt;
+b) Install.
+
+```$ chmod +x <file>```
+
+```$ sudo ./<file>```
 
 ### 1.3 Vagrant installation
-> $ sudo apt install vagrant
+```$ sudo apt install vagrant```
 
-> $ sudo apt install vagrant-vmware-utility
->
-> $ vagrant plugin install vagrant-vmware-desktop
->
-> $ vagrant plugin update vagrant-vmware-desktop
+```$ sudo apt install vagrant-vmware-utility```
+
+```$ vagrant plugin install vagrant-vmware-desktop```
+
+```$ vagrant plugin update vagrant-vmware-desktop```
