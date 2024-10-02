@@ -13,6 +13,7 @@ Use ***Vagrant*** to create and configure 5 ***VMware*** virtual machines.
 ![](assets/media/diagrams/goal_0.png)
 
 ## 2. Framework
+We'll use the VMware, an hypervisor software, in order to create virtual machines. We'll also use Vagrant, a software to automatize the deployment of those virtual machines.
 ### 2.1. VMware installation
 #### 2.1.1. Register
 Register yourself at [Broadcom Registration](https://profile.broadcom.com/web/registration).
@@ -48,17 +49,21 @@ $ vagrant plugin update vagrant-vmware-desktop
 ```
 
 ## 3. Deployment
-
+Our cloud will communciate with the infrastructure through the ssh protocol.
 ### 3.1 Create the Cloud public key
 ```
 $ ssh-keygen
 ```
 
+<img src=assets/media/showcase/ssh_key.png width=720>
+
 ### 3.2 Inspect Vagrantfile
+> *Take some time to explore the virtual machines deployment file.*
+
+In the file, take special attention to these variables in which states the path for the ssh keys.
 ```
-#Variables
-PUBLIC_KEY_PATH = "~/.ssh/id_ed25519.pub" #Change me if needed!
-PRIVATE_KEY_PATH = "~/.ssh/id_ed25519"  #Change me if needed!
+PUBLIC_KEY_PATH = "~/.ssh/id_ed25519.pub"
+PRIVATE_KEY_PATH = "~/.ssh/id_ed25519"
 READ_PUBLIC_KEY = File.read(File.expand_path(PUBLIC_KEY_PATH)).strip
 ```
 
