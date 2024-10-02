@@ -1,3 +1,3 @@
 # Our installation Goal
 
-![](img/goal.png)
+![](assets/diagrams/goal_1.png)
