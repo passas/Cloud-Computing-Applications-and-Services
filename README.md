@@ -1,12 +1,12 @@
 
 ### Cloud Provider
 > *Infrastructure as a Service (IaaS).*
-  - Create 5 VMs [[1]](#references).
+  - Create 5 VMs [[1]](0.CreateVMs_IaaS).
     - *Who's gonna use them?*
 
 ### Developer
-  - Swap application [[2]](#references).
-    - Install [[3]](#references); 
+  - Swap application [[2]](https://github.com/Hackathonners/swap).
+    - Install [[3]](1.InstallSwap_Manually); 
     - Deploy;
     - Configure.
 
