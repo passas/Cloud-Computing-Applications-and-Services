@@ -1,4 +1,4 @@
-## Cloud Specification
+## 1. The cloud specification
 
 | Spec. |        Detail         |
 | :---  |        :---:          |
