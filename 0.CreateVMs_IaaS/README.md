@@ -1,6 +1,6 @@
 ## Cloud Specification
 
-| Spec | Detail |
+| Spec. | Detail |
 | --- | --- |
 | OS | Ubuntu 24.04.1 LTS |
 | CPU | Intel® Core™ i3-9100F |
