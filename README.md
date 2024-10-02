@@ -19,8 +19,8 @@ Net-worth: $2000 - $2500.
 
 ### References
 
-[1] Our *create vms, the IaaS* repo: https://github.com/passas/Cloud-Computing-Applications-and-Services/tree/main/0.CreateVMs_IaaS .
+[1] Our *create vms, the IaaS* repo, https://github.com/passas/Cloud-Computing-Applications-and-Services/tree/main/0.CreateVMs_IaaS .
 
-[2] Swap, enrollments and shifts exchanges: https://github.com/Hackathonners/swap .
+[2] Swap, enrollments and shifts exchanges, https://github.com/Hackathonners/swap .
 
-[3] Our manually deployment of the Swap app: https://github.com/passas/Cloud-Computing-Applications-and-Services/tree/main/1.InstallSwap_Manually .
+[3] Our manually deployment of the Swap app, https://github.com/passas/Cloud-Computing-Applications-and-Services/tree/main/1.InstallSwap_Manually .
