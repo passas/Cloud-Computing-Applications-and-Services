@@ -10,4 +10,4 @@ My pc.
 ## 1. The goal of our infrastructure
 Use Vagrant to create and configure 5 VMware virtual machines.
 
-[](assets/media/diagrams/goal_0.png)
+![](assets/media/diagrams/goal_0.png)
