@@ -4,7 +4,7 @@
     - *Who's gonna use them?*
 
 ### Developer
-  - Swap application.
+  - [Swap](https://github.com/Hackathonners/swap) application.
     - [Install](1.InstallSwap_Manually); 
     - Deploy;
     - Configure.
