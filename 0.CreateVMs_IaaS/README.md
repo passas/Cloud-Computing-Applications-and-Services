@@ -7,30 +7,41 @@ My pc.
 | CPU   | Intel® Core™ i3-9100F |
 | RAM   | 16.0 GiB              |
 
-## 1. The goal of our infrastructure
+## 1. The goal of our Infrastructure
 Use Vagrant to create and configure 5 VMware virtual machines.
 
 ![](assets/media/diagrams/goal_0.png)
 
-### 1.1 Registration 
-https://profile.broadcom.com/web/registration
+### 1.1. VMware installation
+#### 1.1.1. Register
+Register yourself at [Broadcom Registration](https://profile.broadcom.com/web/registration).
 
-### 1.2 VMware Workstation Pro 17.0 for Personal USe
-> choose the most recent version
+#### 1.1.2. Download
+Workstation Pro 17.0 for Personal Use.
+> Choose the most recent version.
 
-a) Download at https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro ;
+a) Download at [Broadcom VMware](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro);
 
 b) Install.
 
-```$ chmod +x <file>```
+```
+$ chmod +x <file>
 
-```$ sudo ./<file>```
+$ sudo ./<file>
+```
 
-### 1.3 Vagrant installation
-```$ sudo apt install vagrant```
 
-```$ sudo apt install vagrant-vmware-utility```
+### 1.2. Vagrant installation
+```
+$ sudo apt install vagrant
+```
 
-```$ vagrant plugin install vagrant-vmware-desktop```
+```
+$ sudo apt install vagrant-vmware-utility
+```
 
-```$ vagrant plugin update vagrant-vmware-desktop```
+```
+$ vagrant plugin install vagrant-vmware-desktop
+
+$ vagrant plugin update vagrant-vmware-desktop
+```
