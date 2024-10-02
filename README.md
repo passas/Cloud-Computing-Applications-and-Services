@@ -1,10 +1,10 @@
-### [Cloud Provider](0.CreateVMs_IaaS)
+### Cloud Provider
 > *Infrastructure as a Service (IaaS).*
-  - Deploy 5 VMs.
+  - [Deploy](0.CreateVMs_IaaS) 5 VMs.
     - *Who's gonna use them?*
 
-### [Developer](1.InstallSwap_Manually)
+### Developer
   - Swap application.
-    - Install; 
+    - [Install](1.InstallSwap_Manually); 
     - Deploy;
     - Configure.
