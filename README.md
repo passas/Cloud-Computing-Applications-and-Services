@@ -1,6 +1,6 @@
 ### Cloud Provider
 > *Infrastructure as a Service (IaaS).*
-  - [Deploy](0.CreateVMs_IaaS) 5 VMs.
+  - [Create](0.CreateVMs_IaaS) 5 VMs.
     - *Who's gonna use them?*
 
 ### Developer
