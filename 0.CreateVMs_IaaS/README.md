@@ -49,7 +49,7 @@ $ vagrant plugin update vagrant-vmware-desktop
 ```
 
 ## 3. Deployment
-Our cloud will communciate with the infrastructure through the ssh protocol.
+Our cloud will communicate with the infrastructure through the ssh protocol.
 ### 3.1 Create the Cloud public key
 ```
 $ ssh-keygen
