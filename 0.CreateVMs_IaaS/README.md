@@ -97,3 +97,7 @@ $ vagrant up node1
 $ vagrant destroy
 ```
 
+<hr>
+
+**SSH Cheatsheet**
+<img src="assets/media/ssh_cheatsheet.png">
