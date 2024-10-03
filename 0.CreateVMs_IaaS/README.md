@@ -76,4 +76,24 @@ In the same directory as the vagrant file.
 ### 3.4 Check-up
 ```$ vagrant status```
 
+#### 3.4.1 Ping and SSH
+Username: vagrant
+
+Password: vagrant
+
+```$ ssh vagrant@192.168.56.101```
+
+```$ ping 192.168.56.101```
+
+etc...
+
+### 3.5 Halt, Up, and Destroy
+```
+$ vagrant halt
+$ vagrant up node1
+```
+
+```
+$ vagrant destroy
+```
 
