@@ -114,5 +114,5 @@ $ vagrant destroy
 
 <hr>
 
-**SSH Cheatsheet**
-<img src="assets/media/ssh_cheatsheet1.png">
+#### SSh cheat sheet;
+<img src="assets/media/ssh_cheatsheet2.png">
