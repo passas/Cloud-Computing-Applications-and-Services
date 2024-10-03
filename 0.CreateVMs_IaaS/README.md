@@ -20,7 +20,6 @@ Register yourself at [Broadcom Registration](https://profile.broadcom.com/web/re
 
 #### 2.1.2. Download
 Workstation Pro 17.0 for Personal Use.
-> [!NOTE]
 > Choose the most recent version.
 
 a) Download at [Broadcom VMware](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro);
