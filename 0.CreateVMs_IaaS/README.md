@@ -67,4 +67,13 @@ PRIVATE_KEY_PATH = "~/.ssh/id_ed25519"
 READ_PUBLIC_KEY = File.read(File.expand_path(PUBLIC_KEY_PATH)).strip
 ```
 
+### 3.3 Deploy
+In the same directory as the vagrant file.
+
+```$ vagrant up```
+<img src="media/diagrams/infrastructure.png">
+
+### 3.4 Check-up
+```$ vagrant status```
+
 
