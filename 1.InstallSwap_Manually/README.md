@@ -4,6 +4,8 @@
 
 ## 1.1. Cloud provider
 ```
+$ sudo systemctl start vagrant-vmware-utility
+
 $ vagrant up node1 node2
 ```
 
