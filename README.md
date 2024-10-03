@@ -1,5 +1,6 @@
-> [!WARNING]
-> Net-worth of $2000 - $2500.
+```
+Net-worth: $2000 - $2500.
+```
 
 ### Cloud Provider
 > *Infrastructure as a Service (IaaS).*
