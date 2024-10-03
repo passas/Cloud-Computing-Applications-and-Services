@@ -71,3 +71,90 @@ If you see the swap database as an output, you're ok!
 
 
 # 3. App Deploy
+```
+$ ssh vagrant@192.168.56.102
+```
+## 3.1. Dependencies
+
+### a) PHP;
+```
+$ sudo add-apt-repository ppa:ondrej/php
+
+$ sudo apt update
+
+$ sudo apt install php7.4 \
+php7.4-{fpm,zip,mbstring,tokenizer,mysql,gd,xml,bcmath,intl,curl}
+```
+
+### b) NodeJS, npm, and Composer-v1.
+```
+$ sudo apt install nodejs npm
+
+$ curl -sS https://getcomposer.org/installer | php -- --1
+
+$ sudo mv composer.phar /usr/bin/composer
+```
+
+## 3.2. Swap
+
+### Install
+
+#### a) Clone the repo;
+```
+$ git clone https://github.com/Hackathonners/swap
+```
+
+#### b) Install packages;
+```
+$ cd swap
+
+$ composer install
+```
+
+#### c) Install app
+```
+$ npm install
+```
+
+### Configure
+
+#### a) Database;
+```
+$ sudo vi .env.example
+```
+
+```
+DB_HOST=192.168.56.101
+DB_DATABASE=swap
+DB_USERNAME=miguel
+DB_PASSWORD=passinhas
+```
+
+```
+$ sudo mv .env.example .env
+```
+
+#### b) Key;
+```
+$ php artisan key:generate
+```
+
+#### c) Migrate;
+```
+$ php artisan migrate
+```
+
+#### d) Seed (with examples);
+```
+$ php artisan db:seed
+```
+
+#### e) Start.
+```
+$ php artisan serve --host=0.0.0.0
+```
+
+# 4. Web Browser
+At your pc, access ```http://192.168.56.102:8000```.
+
+Then try use those credentials, username ```contact@hackathonners.org```, and password ```123456```.
