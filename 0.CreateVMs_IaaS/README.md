@@ -70,29 +70,44 @@ READ_PUBLIC_KEY = File.read(File.expand_path(PUBLIC_KEY_PATH)).strip
 ### 3.3 Deploy
 In the same directory as the vagrant file.
 
-```$ vagrant up```
+```
+$ vagrant up
+```
+
 <img src="media/diagrams/infrastructure1.png">
 
 ### 3.4 Check-up
-```$ vagrant status```
+```
+$ vagrant status
+```
 
-#### 3.4.1 Ping and SSH
+#### 3.4.1 Ping
+```
+$ ping 192.168.56.101
+```
+
+#### 3.4.2 Ssh
 Username: vagrant
 
 Password: vagrant
 
-```$ ssh vagrant@192.168.56.101```
+```
+$ ssh vagrant@192.168.56.101
+```
 
-```$ ping 192.168.56.101```
-
-etc...
-
-### 3.5 Halt, Up, and Destroy
+### 3.5 Halt
+Shut down the VMs.
 ```
 $ vagrant halt
+```
+### 3.6 Up
+Boot a Vm.
+
+```
 $ vagrant up node1
 ```
-
+### 3.7 Destroy
+Undeploy.
 ```
 $ vagrant destroy
 ```
@@ -100,4 +115,4 @@ $ vagrant destroy
 <hr>
 
 **SSH Cheatsheet**
-<img src="assets/media/ssh_cheatsheet.png">
+<img src="assets/media/ssh_cheatsheet1.png">
