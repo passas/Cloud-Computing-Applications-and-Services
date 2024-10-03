@@ -71,7 +71,7 @@ READ_PUBLIC_KEY = File.read(File.expand_path(PUBLIC_KEY_PATH)).strip
 In the same directory as the vagrant file.
 
 ```$ vagrant up```
-<img src="media/diagrams/infrastructure.png">
+<img src="media/diagrams/infrastructure1.png">
 
 ### 3.4 Check-up
 ```$ vagrant status```
