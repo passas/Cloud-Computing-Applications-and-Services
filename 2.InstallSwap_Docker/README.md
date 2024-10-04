@@ -1,4 +1,7 @@
 # 1. Intro
+
+<!--<img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="56">-->
+
 In this lesson we will take a more suitable approach to the matter of deployment itself.
 
 Nowadays, in order to deploy an application, its deployment follow a containerized form. In this containerized form, the DevOp writes a standalone script in order to get the application ongoing, with all it's dependencies ─ requirments.
@@ -10,6 +13,13 @@ Ansible is a tool to orchestration all the pre, and post required intervenience 
 ## 1.1 Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form. A container feeds himself from the host machine (operative system, and hardware). Appart from that, its context is uniquely known to himself [^1].
 
+## 1.2 Docker
+<!--## 1.2 Docker <img src="media/docker1.png" width="48">-->
+*Tayloring...*
+
+## 1.3 Ansible
+<!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
+*Tayloring...*
 
 <!--References-->
-[^1]: The Docker webpage, on its "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
+[^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
