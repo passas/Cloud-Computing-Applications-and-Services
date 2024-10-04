@@ -23,6 +23,12 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
 *Learning...*
 
+<!--# 2. IaaS
+*Learning...*
+
+# 3. DevOp
+*Learning...*-->
+
 <!--References-->
 [^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
 
