@@ -34,3 +34,4 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 
 [^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
 
+[^3]: Docker installation, at https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository .
