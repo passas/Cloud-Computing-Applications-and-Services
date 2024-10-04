@@ -28,9 +28,9 @@ In this section we indulge the cloud side of this deployment process.
 
 At this stage we state that the #node1 it's our target vm for this deployment process. And so it comes the pre-set of it.
 
-We, as IaaS, we'll integrate in our #node1 the Docker software.
+We, as IaaS, we'll integrate in our #node1 the Docker software [^3].
 
-After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^3] and remove its sudo permission request necessity [^4]. Notice that this follows a nonautomated path.
+After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^4] and remove its sudo permission request necessity [^5]. Notice that this follows a nonautomated path.
 
 
 <!--# 3. DevOp
@@ -41,6 +41,8 @@ After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app in
 
 [^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
 
-[^3]: Docker installation, at https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository .
+[^3]: The Docker software: https://docs.docker.com/ .
 
-[^4]: Docker, remove sudo authentication from it, at https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
+[^4]: Docker installation, at https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository .
+
+[^5]: Docker, remove sudo authentication from it, at https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
