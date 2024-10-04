@@ -1,4 +1,4 @@
-## 0. The Cloud environment
+# 1. The cloud environment
 My pc.
 
 | Spec. |        Detail         |
@@ -7,18 +7,23 @@ My pc.
 | CPU   | Intel® Core™ i3-9100F |
 | RAM   | 16.0 GiB              |
 
-## 1. The goal of our Infrastructure
+
+# 2. The goal of our infrastructure
 Use ***Vagrant*** to create and configure 5 ***VMware*** virtual machines.
 
 ![](assets/media/diagrams/goal_0.png)
 
-## 2. Framework
-We'll use the VMware, an hypervisor software, in order to create virtual machines. We'll also use Vagrant, a software to automatize the deployment of those virtual machines.
-### 2.1. VMware installation
-#### 2.1.1. Register
+## 2.1. Framework
+We'll use the VMware, an hypervisor software, in order to create virtual machines.
+
+We'll also use Vagrant, a software to automatize the deployment of those virtual machines.
+
+### 2.1.1. VMware installation
+
+#### 2.1.1.1. Register
 Register yourself at [Broadcom Registration](https://profile.broadcom.com/web/registration).
 
-#### 2.1.2. Download
+#### 2.1.1.2. Download
 Workstation Pro 17.0 for Personal Use.
 > Choose the most recent version.
 
@@ -33,7 +38,7 @@ $ sudo ./<file>
 ```
 
 
-### 2.2. Vagrant installation
+### 2.1.2. Vagrant installation
 ```
 $ sudo apt install vagrant
 ```
@@ -48,16 +53,18 @@ $ vagrant plugin install vagrant-vmware-desktop
 $ vagrant plugin update vagrant-vmware-desktop
 ```
 
+
 ## 3. Deployment
 Our cloud will communicate with the infrastructure through the ssh protocol.
-### 3.1 Create the Cloud public key
+
+### 3.1. Create the cloud public key
 ```
 $ ssh-keygen
 ```
 
 <img src=assets/media/showcase/ssh_key.png width=720>
 
-### 3.2 Inspect Vagrantfile
+### 3.2. Inspect Vagrantfile
 > *Take some time to explore the virtual machines deployment file.*
 
 In the file, take special attention to these variables in which states the path for the ssh keys.
@@ -67,46 +74,48 @@ PRIVATE_KEY_PATH = "~/.ssh/id_ed25519"
 READ_PUBLIC_KEY = File.read(File.expand_path(PUBLIC_KEY_PATH)).strip
 ```
 
-### 3.3 Deploy
+### 3.3. Deploy the VMs
 In the same directory as the vagrant file.
 
 ```
+$ sudo systemctl start vagrant-vmware-utility
+
 $ vagrant up
 ```
 
 <img src="media/diagrams/infrastructure1.png">
 
-### 3.4 Check-up
+### 3.4. Check-up
 ```
 $ vagrant status
 ```
 
-#### 3.4.1 Ping
+#### 3.4.1. Ping
 ```
 $ ping 192.168.56.101
 ```
 
-#### 3.4.2 Ssh
-Username: vagrant
+#### 3.4.2. Ssh
+Username: vagrant;
 
-Password: vagrant
+Password: vagrant.
 
 ```
 $ ssh vagrant@192.168.56.101
 ```
 
-### 3.5 Halt
+### 3.5. Halt
 Shut down the VMs.
 ```
 $ vagrant halt
 ```
-### 3.6 Up
+### 3.6. Up
 Boot a Vm.
 
 ```
 $ vagrant up node1
 ```
-### 3.7 Destroy
+### 3.7. Destroy
 Undeploy.
 ```
 $ vagrant destroy
@@ -114,5 +123,5 @@ $ vagrant destroy
 
 <hr>
 
-#### SSh cheat sheet;
+# Appendix A ─ SSh cheat sheet
 <img src="assets/media/ssh_cheatsheet2.png">
