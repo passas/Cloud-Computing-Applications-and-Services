@@ -13,7 +13,7 @@ Ansible is a tool to orchestration all the pre, and post required intervenience 
 ## 1.1 Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
 
-Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence.
+Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence ─ that both are hosted in the same host machine, what's the amount of resource consumption from each other, and their context (as a matter of a CPU OS process).
 
 ## 1.2 Docker
 <!--## 1.2 Docker <img src="media/docker1.png" width="48">-->
