@@ -35,7 +35,7 @@ CREATE DATABASE swap;
 ### b) Create an authorized exterior access;
 > CREATE USER '&lt;USER&gt;'@'&lt;IP'&gt; IDENTIFIED BY '&lt;PASSWORD&gt;';
 >
-> GRANT ALL PRIVILEGES ON swap.* TO '&lt;USER&gt;'@'&lt;IP>'&gt;WITH GRANT OPTION;
+> GRANT ALL PRIVILEGES ON swap.* TO '&lt;USER&gt;'@'&lt;IP'&gt; WITH GRANT OPTION;
 
 
 > [!CAUTION]
