@@ -8,7 +8,7 @@ Nowadays, in order to deploy an application, its deployment follow a containeriz
 
 Nonetheless, this isn't enough. The DevOp shall (1) certificate that, in fact, the Docker software is installed in the machine, and (2) apply some configurations, which led to further tasks that a container can not support. It is where Ansible software come along.
 
-Ansible is a tool to orchestration all the pre, and post required intervenience beside the container deplyment itself.
+Ansible is a tool to orchestration all the pre, and post required intervenience besides the container deplyment itself.
 
 ## 1.1 Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
