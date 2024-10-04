@@ -23,10 +23,17 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
 *Learning...*
 
-<!--# 2. IaaS
-*Learning...*
+# 2. IaaS
+In this section we indulge the cloud side of this deployment process.
 
-# 3. DevOp
+At this stage we state that the #node1 it's our target vm for this deployment process. And so it comes the pre-set of it.
+
+We, as IaaS, we'll integrate in our #node1 the Docker software.
+
+After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^3] and remove its sudo permission request necessity [^4]. Notice that this follows a nonautomated path.
+
+
+<!--# 3. DevOp
 *Learning...*-->
 
 <!--References-->
@@ -35,4 +42,5 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 [^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
 
 [^3]: Docker installation, at https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository .
+
 [^4]: Docker, remove sudo authentication from it, at https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
