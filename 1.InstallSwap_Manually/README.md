@@ -40,7 +40,7 @@ CREATE DATABASE swap;
 
 > [!CAUTION]
 > 
-> The IP stands for the machine where the user can sign in himself; as the VM#node1 where the app will be further installed.
+> The IP stands for the machine where the user can sign in himself; as the ip of VM#node2 where the app will be further installed.
 ```
 CREATE USER 'miguel'@'192.168.56.102' IDENTIFIED BY 'passinas';
 GRANT ALL PRIVILEGES ON swap.* TO 'miguel'@'192.168.56.102' WITH GRANT OPTION;
