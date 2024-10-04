@@ -32,6 +32,8 @@ We, as IaaS, we'll integrate in our #node1 the Docker software [^3].
 
 After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^4] and remove its sudo permission request necessity [^5]. Notice that this follows a nonautomated path.
 
+<!--## 2.1. Tutorial
+As our first time concern, we decide to follow the company tutorial [^6].-->
 
 <!--# 3. DevOp
 *Learning...*-->
@@ -46,3 +48,5 @@ After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app in
 [^4]: Docker installation, at https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository .
 
 [^5]: Docker, remove sudo authentication from it, at https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
+
+<!--[^6]: Docker tutorial, at https://docs.docker.com/get-started/workshop/02_our_app/ .-->
