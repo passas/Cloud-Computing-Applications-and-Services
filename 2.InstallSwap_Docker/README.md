@@ -33,7 +33,8 @@ We, as IaaS, we'll integrate in our #node1 the Docker software [^3].
 After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^4] and remove its sudo permission request necessity [^5]. Notice that this follows a nonautomated path.
 
 <!--## 2.1. Tutorial
-As our first time concern, we decide to follow the company tutorial [^6].-->
+As our first time concern, we decide to follow the company tutorial [^6].
+```sudo apt install git```.-->
 
 <!--# 3. DevOp
 *Learning...*-->
