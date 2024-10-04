@@ -18,7 +18,7 @@ Tasks:
     - Deploy;
     - Configure.
    
-## [DevOps](2.InstallSwapp_Docker)
+## [DevOps](2.InstallSwap_Docker)
 Automatize the deployment of an app.
 
 Tasks:
