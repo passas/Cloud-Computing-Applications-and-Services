@@ -97,7 +97,7 @@ $ sudo mv composer.phar /usr/bin/composer
 
 ## 3.2. Swap
 
-### Install
+### 3.2.1. Install
 
 #### a) Clone the repo;
 ```
@@ -116,7 +116,7 @@ $ composer install
 $ npm install
 ```
 
-### Configure
+### 3.2.2. Configure
 
 #### a) Database;
 ```
