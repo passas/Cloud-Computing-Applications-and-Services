@@ -11,15 +11,20 @@ Nonetheless, this isn't enough. The DevOp shall (1) certificate that, in fact, t
 Ansible is a tool to orchestration all the pre, and post required intervenience beside the container deplyment itself.
 
 ## 1.1 Container
-A container it is the most lightweight form of environment in order to run an application in its independent self form. A container feeds himself from the host machine (operative system, and hardware). Appart from that, the container context is uniquely known to itself [^1].
+A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
+
+Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence.
 
 ## 1.2 Docker
 <!--## 1.2 Docker <img src="media/docker1.png" width="48">-->
-*Tayloring...*
+*Learning...*
 
 ## 1.3 Ansible
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
-*Tayloring...*
+*Learning...*
 
 <!--References-->
 [^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
+
+[^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
+
