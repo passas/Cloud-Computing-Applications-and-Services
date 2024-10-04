@@ -1,4 +1,4 @@
-# 1. Intro
+# 1. Introduction
 
 <!--<img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="56">-->
 
