@@ -111,7 +111,7 @@ $ cd swap
 $ composer install
 ```
 
-#### c) Install app
+#### c) Install app.
 ```
 $ npm install
 ```
