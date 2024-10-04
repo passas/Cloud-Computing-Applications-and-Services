@@ -32,7 +32,7 @@ $ sudo mysql
 CREATE DATABASE swap;
 ```
 
-### a) Create an authorized exterior access;
+### b) Create an authorized exterior access;
 > CREATE USER '&lt;USER&gt;'@'&lt;IP>'&gt;IDENTIFIED BY '&lt;PASS&gt;ORD>';
 >
 > GRANT ALL PRIVILEGES ON swap.* TO '&lt;USER&gt;'@'&lt;IP>'&gt;WITH GRANT OPTION;
@@ -46,7 +46,7 @@ CREATE USER 'miguel'@'192.168.56.102' IDENTIFIED BY 'passinas';
 GRANT ALL PRIVILEGES ON swap.* TO 'miguel'@'192.168.56.102' WITH GRANT OPTION;
 ```
 
-### b) Open #node1 mysql server;
+### c) Open #node1 mysql server;
 ```
 $ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf 
 ```
