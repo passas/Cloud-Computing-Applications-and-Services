@@ -34,8 +34,8 @@ After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app in
 As our first time concern, we decide to follow the company tutorial [^6].
 ```sudo apt install git```.-->
 
-<!--# 3. DevOp
-*Learning...*-->
+# 3. DevOp
+We pre-negotiate the contract with our IaaS provider. It gaves us an address IP ```192.168.56.101``` where we could deploy our Swap application.
 
 
 
