@@ -37,7 +37,14 @@ As our first time concern, we decide to follow the company tutorial [^6].
 # 3. DevOp
 We pre-negotiate the contract with our IaaS provider. It gaves us an address IP ```192.168.56.101``` where we could deploy our Swap application.
 
+## 3.1 Swap application
+Our swap application have 2 main components, the database component, and the app itself.
 
+For that reason, we want to build each one of the components in a different container.
+
+In order for both containers got to communicate with each other, we have to manage it through a Docker network.
+
+### 3.3.1 Docker network
 
 <!--References-->
 <hr>
