@@ -53,8 +53,6 @@ docker start <container>
 docker ps
 
 docker rm <contaienr>
-
-docker build -t <given-name> <path>
 ```
 
 
