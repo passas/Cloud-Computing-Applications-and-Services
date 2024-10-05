@@ -40,9 +40,9 @@ We pre-negotiate the contract with our IaaS provider. It gaves us an address IP 
 ## 3.1 Swap application
 Our swap application have 2 main components, the database component, and the app itself.
 
-For that reason, we want to build each one of the components in a different container.
+Moreover, we'll want to build each one of the components in a different container.
 
-In order for both containers got to communicate with each other, we have to manage it through a Docker network.
+In order for both containers get to communicate with each other, we have to manage it through a Docker Network.
 
 ### 3.1.1 Docker network
 
