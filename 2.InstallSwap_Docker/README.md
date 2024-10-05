@@ -44,7 +44,7 @@ For that reason, we want to build each one of the components in a different cont
 
 In order for both containers got to communicate with each other, we have to manage it through a Docker network.
 
-### 3.3.1 Docker network
+### 3.1.1 Docker network
 
 <!--References-->
 <hr>
