@@ -42,7 +42,7 @@ As our first time concern, we decide to follow the company tutorial [^6].
 <!--References-->
 <hr>
 
-<img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52">
+<img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52">
 
 ### References
 
