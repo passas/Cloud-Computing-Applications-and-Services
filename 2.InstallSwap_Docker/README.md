@@ -1,7 +1,5 @@
 # 1. Introduction
 
-<!--<img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="56">-->
-
 In this lesson we will take a more suitable approach to the matter of deployment itself.
 
 Nowadays, in order to deploy an application, its deployment follow a containerized form. In this containerized form, the DevOp writes a standalone script in order to get the application ongoing, with all it's dependencies ─ requirments.
@@ -39,7 +37,15 @@ As our first time concern, we decide to follow the company tutorial [^6].
 <!--# 3. DevOp
 *Learning...*-->
 
+
+
 <!--References-->
+<hr>
+
+<img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52">
+
+### References
+
 [^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
 
 [^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
