@@ -21,7 +21,7 @@ d) Halt a container;
 
 e) Remove a container.
 
-
+## 1.1. Quest
 ### a) Build an image;
 ```
 docker build -t <given-name> <path>
