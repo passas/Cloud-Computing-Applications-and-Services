@@ -42,7 +42,7 @@ We pre-negotiate the contract with our IaaS provider. It gaves us an address IP 
 <!--References-->
 <hr>
 
-<img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52">
+<!--<img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52"> <img src="media/docker1.png" width="72">  <img src="media/ansible1.png" width="52">-->
 
 <hr>
 
