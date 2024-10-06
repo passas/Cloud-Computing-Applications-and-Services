@@ -170,7 +170,6 @@ Also, you may need to delete the known hosts in ```~/.ssh```.
 
 <!--References-->
 <hr>
-<hr>
 
 ### References
 
