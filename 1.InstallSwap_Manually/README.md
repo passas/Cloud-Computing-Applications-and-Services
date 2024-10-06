@@ -79,3 +79,11 @@ sudo /etc/init.d/mysql restart
 ```
 
 ## 3.2 App
+In order to understand its requirements, we shall read the authors README. We can find that in the public repository: https://github.com/Hackathonners/swap .
+
+There it states the following set of requirements:
+- PHP 7.4+;
+- PostgreSQL;
+- Composer;
+- NodeJS;
+- Yarn.
