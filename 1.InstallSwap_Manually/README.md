@@ -77,3 +77,5 @@ Make it count.
 ```
 sudo /etc/init.d/mysql restart
 ```
+
+## 3.2 App
