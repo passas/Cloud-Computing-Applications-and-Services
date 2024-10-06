@@ -32,25 +32,27 @@ a) Download at [Broadcom VMware](https://support.broadcom.com/group/ecx/productd
 b) Install.
 
 ```
-$ chmod +x <file>
+chmod +x <file>
 
-$ sudo ./<file>
+sudo ./<file>
 ```
 
 
 ### 2.1.2. Vagrant installation
 ```
-$ sudo apt install vagrant
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install vagrant
 ```
 
 ```
-$ sudo apt install vagrant-vmware-utility
+sudo apt install vagrant-vmware-utility
 ```
 
 ```
-$ vagrant plugin install vagrant-vmware-desktop
+vagrant plugin install vagrant-vmware-desktop
 
-$ vagrant plugin update vagrant-vmware-desktop
+vagrant plugin update vagrant-vmware-desktop
 ```
 
 
