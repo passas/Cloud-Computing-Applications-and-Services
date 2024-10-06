@@ -28,7 +28,7 @@ Tasks:
     - Deploy;
     - Configure.
 
-Goal:
+*Goal*:
   - Open it via browser.
    
 ## [DevOps](2.InstallSwap_Docker)
@@ -40,7 +40,7 @@ Tasks:
     - Deploy;
     - Configure.
 
-Goal:
+*Goal*:
   - Open it via browser.
 
 <!--References-->
