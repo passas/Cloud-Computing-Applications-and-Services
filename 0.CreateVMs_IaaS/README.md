@@ -39,6 +39,10 @@ sudo ./<file>
 
 
 ### 2.1.2. Vagrant installation
+pre-req.
+```
+sudo apt install net-tools
+```
 https://developer.hashicorp.com/vagrant/install
 ```
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
