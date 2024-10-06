@@ -119,10 +119,28 @@ vagrant up
 ```
 .
 
+### 3.3.2 Halt
+It's a gracefull shutdown.
+```
+vagrant halt
+```
+
+### 3.3.3 Destroy
+When in need to re-deploy a VM, do the following command:
+```
+vagrant destroy <vmname>
+```
+
+
+### 3.3.4 Status
+In order to check the VMs status, do the following command:
+```
+vagrant status
+```
 
 
 
-
+<!--References-->
 <hr>
 <hr>
 
