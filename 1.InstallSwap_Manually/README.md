@@ -59,3 +59,20 @@ Work on its privileges.
 ```
 GRANT ALL PRIVILEGES ON swap.* TO 'miguel'@'192.168.56.102' WITH GRANT OPTION;
 ```
+
+### Configure the database
+State where the requests shall be listened.
+
+Open the following file with a bash editor.
+```
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+Search through the following configuration, and state that this node will be responsible for listening database requests.
+```
+bind-address            = 192.168.56.101
+```
+
+Make it count.
+```
+sudo /etc/init.d/mysql restart
+```
