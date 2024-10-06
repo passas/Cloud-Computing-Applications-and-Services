@@ -165,6 +165,9 @@ If something isn't coming along, try to ```destroy``` that one VM, and ```up``` 
 
 Also, you may need to delete the known hosts in ```~/.ssh```.
 
+> Or manage to do it by hand, as some sort of certificate inside a VM is in need...
+> Good luck!
+
 <!--References-->
 <hr>
 <hr>
