@@ -23,7 +23,7 @@ Tasks:
 Manual deployment of an app.
 
 Tasks:
-  - Swap application deploymenmt [^1].
+  - Swap application deployment [^1].
     - Install; 
     - Deploy;
     - Configure.
