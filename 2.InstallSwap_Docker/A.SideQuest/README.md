@@ -29,7 +29,7 @@ docker build -t <given-name> <path>
 
 ### b) Put a container online;
 ```
-docker run -dp 192.168.56.101:3000:3000 getting-started
+docker run -dp 192.168.56.101:3000:3000 <given-name>
 ```
 
 ### c) Access a container shell;
