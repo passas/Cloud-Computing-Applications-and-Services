@@ -88,6 +88,6 @@ There it states the following set of requirements [^1]:
 - NodeJS;
 - Yarn.
 
-Moreover, the preceding README document, states how the Swap installation, as long as its configuration, shall be done.
+Moreover, the preceding README document, states how the Swap installation, as long as its configuration, shall be made.
 
 [^1]: Swap installation requirements from https://github.com/Hackathonners/swap?tab=readme-ov-file#requirements .
