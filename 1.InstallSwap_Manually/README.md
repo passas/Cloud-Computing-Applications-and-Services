@@ -5,3 +5,5 @@ An application software deployment comes with a panoply of setting behaviors, as
 
 The very first step in order to gain control of our needs, it's to place a manual deployment ourselves.
 
+# 1. Introduction
+For this lesson we'll take an open-source application, it's called "Swap". Its intend it is to be a manager for the student schedules, as long as the teachers schedules. Find more information about it on https://github.com/Hackathonners/swap .
