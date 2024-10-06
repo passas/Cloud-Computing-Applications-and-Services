@@ -22,6 +22,8 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 *Learning...*
 
 # 2. IaaS
+> ```sudo systemctl start vagrant-vmware-utility```
+
 In this section we indulge the cloud side of this deployment process.
 
 At this stage we state that the #node1 it's our target vm for this deployment process. And so it comes the pre-set of it.
@@ -29,10 +31,6 @@ At this stage we state that the #node1 it's our target vm for this deployment pr
 We, as IaaS, we'll integrate in our #node1 the Docker software [^3].
 
 After reach our node ```ssh vagrant@192.168.56.101```, we took the dokcer app installation [^4] and remove its sudo permission request necessity [^5]. Notice that this follows a nonautomated path.
-
-<!--## 2.1. Tutorial
-As our first time concern, we decide to follow the company tutorial [^6].
-```sudo apt install git```.-->
 
 # 3. DevOp
 We pre-negotiate the contract with our IaaS provider. It gaves us an address IP ```192.168.56.101``` where we could deploy our Swap application.
@@ -44,7 +42,30 @@ Moreover, we'll want to build each one of the components in a different containe
 
 In order for both containers get to communicate with each other, we have to manage it through a Docker Network.
 
-### 3.1.1. Docker network
+### 3.1.1. Docker Network
+This process is really straightforward. More about it can be consulted in the Docker network drivers page [^6].
+
+First we state a network.
+```
+docker network create <network name>
+```
+
+Then we check if it is really created.
+```
+docker network list
+```
+
+For some more advanced features, as DNS like configuration, we can inspect it.
+```
+docker network inspect <network name>
+```
+
+### 3.1.2. Database
+For the database we'll instantiate a proper container, different from the one who will run the app itself.
+
+As for Docker containers are about, we need to build an image. In this case, the Docker company already have one [^7].
+
+This image refers to a mysql container, and comes with some mysql settings configuration on the moment of the container creation.
 
 <!--References-->
 <hr>
@@ -65,4 +86,6 @@ In order for both containers get to communicate with each other, we have to mana
 
 [^5]: Docker, remove sudo authentication from it, at https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
 
-<!--[^6]: Docker tutorial, at https://docs.docker.com/get-started/workshop/02_our_app/ .-->
+[^6]: Docker netword drivers documentation, at https://docs.docker.com/engine/network/drivers/ .
+
+[^7]: MySQL Docker image: https://hub.docker.com/_/mysql .
