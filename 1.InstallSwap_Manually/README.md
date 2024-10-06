@@ -25,3 +25,11 @@ The first machine is intended to run the app database.
 The second machine is intended to run the http app requests.
 > ```192.168.56.102```
 
+## 3.1 Database
+Remember that this is a practice to load an empty machine. It has its Operative System, and nothing more.
+
+### Install MySQL Server
+Straightforward.
+```
+sudo apt install mysql-server
+```
