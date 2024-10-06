@@ -31,7 +31,7 @@ Tasks:
 *Goal*:
   - Open it via browser.
    
-## [DevOps](2.InstallSwap_Docker)
+## [DevOp](2.InstallSwap_Docker)
 Automatized deployment of an app.
 
 Tasks:
