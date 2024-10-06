@@ -70,5 +70,65 @@ All good!
 <hr>
 
 # 3 Vagrant
+Vagrant is a software to automatize the deployment and configuration of virtual machines.
+
+The installation process can follow 2 steps: (1) the installation of the software itself, and (2) the installation of a utility package, in case you use the VMware software in order to get your virtualizations.
+
+## 3.1 Pre-requisites
+For establish network connection, and network management in our virtual machines, we need to install the netstat tool.
+```
+sudo apt install net-tools
+```
+
+In order to establish communication, via ssh protocol, with the future virtual machines, we need to set up our ssh keys.
+```
+ssh-keygen
+```
+It's important to check the name of the files, private and public keys, as also where did they go.
+> Usually as ```~/.ssh/id_rsa``` and ```~/.ssh/id_rsa.pub```.
+
+
+## 3.2 Download & Installation
+For the Vagrant software itself, you can run your installation by putting the following statements on your bash terminal:
+```
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install vagrant
+```
+.
+
+Or, if you prefer, you can manage to do it mannually [^1].
+
+## 3.3 Virtualization
+For the virtualization itself, you shall pick a Vagrantfile.
+
+For the purpose of this course, we attend you with one.
+
+> [!WARNING]
+> Stay tunned to the following lines:
+> ```
+> PUBLIC_KEY_PATH = "~/.ssh/id_rsa.pub"
+> PRIVATE_KEY_PATH = "~/.ssh/id_rsa"
+> ```
+> , as they state the public and private path for the ssh keys of yours.
+
+### 3.3.1 Up
+To manage the start of the automated VMs creation process, indulge it by the following command on the bash:
+```
+vagrant up
+```
+.
+
+
+
+
+
+<hr>
+<hr>
+
+### References
+
+[^1]: Vagrant installation guide, at https://developer.hashicorp.com/vagrant/install/vmware .
+
 
 [^1]: VirtualBox v7.0 https://www.virtualbox.org/wiki/Download_Old_Builds_7_0 .
