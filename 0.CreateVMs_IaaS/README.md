@@ -55,7 +55,8 @@ sudo apt update && sudo apt install vagrant
 
 ```
 vagrant plugin install vagrant-vmware-desktop
-
+```
+```
 vagrant plugin update vagrant-vmware-desktop
 ```
 
