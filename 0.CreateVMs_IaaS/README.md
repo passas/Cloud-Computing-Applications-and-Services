@@ -140,25 +140,24 @@ vagrant status
 
 ## 3.4 Tests
 At this phase, in order to test the good deploytment of our desired VMs, you can do the following:
-
-**node1**
 ```
+#node1
 ssh vagrant@192.168.56.101
 ```
-**node2**
 ```
+#node2
 ssh vagrant@192.168.56.102
 ```
-**myvm**
 ```
+#myvm
 ssh vagrant@192.168.56.10
 ```
-**monitor**
 ```
+#monitor
 ssh vagrant@192.168.56.200
 ```
-**control plane**
 ```
+#control plane
 ssh vagrant@192.168.56.100
 ```
 
