@@ -138,7 +138,25 @@ In order to check the VMs status, do the following command:
 vagrant status
 ```
 
+## 3.4 Tests
+At this phase, in order to test the good deploytment of our desired VMs, you can do the following:
+```
+ssh vagrant@192.168.56.101
+```
+```
+ssh vagrant@192.168.56.102
+```
+```
+ssh vagrant@192.168.56.10
+```
+```
+ssh vagrant@192.168.56.200
+```
+```
+ssh vagrant@192.168.56.100
+```
 
+If something isn't coming along, try to ```destroy``` that one VM, and ```up``` it again.
 
 <!--References-->
 <hr>
