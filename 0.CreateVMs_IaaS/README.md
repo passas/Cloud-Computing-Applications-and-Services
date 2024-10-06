@@ -163,6 +163,8 @@ ssh vagrant@192.168.56.100
 
 If something isn't coming along, try to ```destroy``` that one VM, and ```up``` it again.
 
+Also, you may need to delete the known hosts in ```~/.ssh```.
+
 <!--References-->
 <hr>
 <hr>
