@@ -1,5 +1,5 @@
 # *Abstract*
-*When we want to deploy an app, we tend to follow some steps. Those steps are ussually the dependency packages ─ install and maintenance. Furthermore, we do end up for install our target application software.*
+*When we want to deploy an app, we tend to follow some steps. Those steps are usually the dependency packages ─ install and maintenance. Furthermore, we do end up for install our target application software.*
 
 *An application software deployment comes with a panoply of settingly behaviors, as long as a proper configuration set.*
 
