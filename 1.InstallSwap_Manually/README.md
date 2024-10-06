@@ -33,3 +33,29 @@ Straightforward.
 ```
 sudo apt install mysql-server
 ```
+
+### Create, and manage the Swap database
+Lunch the mysql server app.
+```
+sudo mysql
+```
+
+Manage to create the desired database.
+```
+CREATE DATABASE swap;
+```
+
+Open the database to a specific user, from a specific machine.
+```
+CREATE USER 'miguel'@'192.168.56.102' IDENTIFIED BY 'passinhas';
+```
+> ```miguel``` stands for my username;
+> 
+> ```192.168.56.102``` stands for the machine that will run the http requests;
+> 
+> ```passinhas``` stands for my password.
+
+Work on its privileges.
+```
+GRANT ALL PRIVILEGES ON swap.* TO 'miguel'@'192.168.56.102' WITH GRANT OPTION;
+```
