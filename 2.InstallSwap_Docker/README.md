@@ -8,16 +8,16 @@ Nonetheless, this isn't enough. The DevOp shall (1) certificate that, in fact, t
 
 Ansible is a tool to orchestration all the pre, and post required intervenience besides the container deployment itself.
 
-## 1.1 Container
+## 1.1. Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
 
 Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence ─ that both are hosted in the same host machine, what's the amount of resource consumption from each other, their context, etc.
 
-## 1.2 Docker
+## 1.2. Docker
 <!--## 1.2 Docker <img src="media/docker1.png" width="48">-->
 *Learning...*
 
-## 1.3 Ansible
+## 1.3. Ansible
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
 *Learning...*
 
@@ -37,14 +37,14 @@ As our first time concern, we decide to follow the company tutorial [^6].
 # 3. DevOp
 We pre-negotiate the contract with our IaaS provider. It gaves us an address IP ```192.168.56.101``` where we could deploy our Swap application.
 
-## 3.1 Swap application
+## 3.1. Swap application
 Our swap application have 2 main components, the database component, and the app itself.
 
 Moreover, we'll want to build each one of the components in a different container.
 
 In order for both containers get to communicate with each other, we have to manage it through a Docker Network.
 
-### 3.1.1 Docker network
+### 3.1.1. Docker network
 
 <!--References-->
 <hr>
