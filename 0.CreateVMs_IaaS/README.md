@@ -110,7 +110,7 @@ For the purpose of this course, we attend you with one.
 > PUBLIC_KEY_PATH = "~/.ssh/id_rsa.pub"
 > PRIVATE_KEY_PATH = "~/.ssh/id_rsa"
 > ```
-> , as they state the public and private path for the ssh keys of yours.
+> ,as they state the public and private path for the ssh keys of yours.
 
 ### 3.3.1 Up
 To manage the start of the automated VMs creation process, indulge it by the following command on the bash:
