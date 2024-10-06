@@ -71,6 +71,7 @@ Search through the following configuration, and state that this node will be res
 ```
 bind-address            = 192.168.56.101
 ```
+> ```192.168.56.101``` stands for the machine that will run the mysql dtabase requests.
 
 Make it count.
 ```
