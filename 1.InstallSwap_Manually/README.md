@@ -81,9 +81,13 @@ sudo /etc/init.d/mysql restart
 ## 3.2 App
 In order to understand its requirements, we shall read the authors README. We can find that in the public repository: https://github.com/Hackathonners/swap .
 
-There it states the following set of requirements:
+There it states the following set of requirements [^1]:
 - PHP 7.4+;
 - PostgreSQL;
 - Composer;
 - NodeJS;
 - Yarn.
+
+Moreover, the preceding README document, states how the Swap installation, as long as its configuration, shall be done.
+
+[^1]: Swap installation requirements from https://github.com/Hackathonners/swap?tab=readme-ov-file#requirements .
