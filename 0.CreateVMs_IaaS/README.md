@@ -69,6 +69,6 @@ All good!
 
 <hr>
 
-# 3. Vagrant
+# 3. <img src="media/assets/logos/vagrant1.png" width="42">agrant 
 
 [^1]: VirtualBox v7.0 https://www.virtualbox.org/wiki/Download_Old_Builds_7_0 .
