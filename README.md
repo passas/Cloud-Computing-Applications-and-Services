@@ -27,6 +27,9 @@ Tasks:
     - Install; 
     - Deploy;
     - Configure.
+
+Goal:
+  - Open it via browser.
    
 ## [DevOps](2.InstallSwap_Docker)
 Automatized deployment of an app.
@@ -37,7 +40,8 @@ Tasks:
     - Deploy;
     - Configure.
 
-
+Goal:
+  - Open it via browser.
 
 <!--References-->
 [^1]: Swap, enrollments and shifts exchanges, https://github.com/Hackathonners/swap .
