@@ -29,7 +29,7 @@ Tasks:
     - Configure.
    
 ## [DevOps](2.InstallSwap_Docker)
-Automatize the deployment of an app.
+Automatized deployment of an app.
 
 Tasks:
   - Swap application deployment [^1].
