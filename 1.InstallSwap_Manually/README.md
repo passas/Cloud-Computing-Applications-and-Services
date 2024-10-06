@@ -16,3 +16,12 @@ We'll work with node1, ```192.168.56.101```, and node2, ```192.168.56.102```.
 For the matter of this deployment, it's all we have to know.
 > *Hey, do you remeber what you have to do in order to provide our deployment ambience?* [Of course I do!](Cloud-Computing-Applications-and-Services/0.CreateVMs_IaaS)
 
+# 3. Deployment
+For the deployment of our app, we decide to indulge it on two different machines.
+
+The first machine is intended to run the app database.
+> ```192.168.56.101```
+
+The second machine is intended to run the http app requests.
+> ```192.168.56.102```
+
