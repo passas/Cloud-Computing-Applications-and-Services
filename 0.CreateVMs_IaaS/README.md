@@ -14,7 +14,7 @@ From the panoply of virtualization softwares, we decided to go with the VirtualB
 
 <hr>
 
-# 2. VirtualBox
+# 2. VirtualBox <img src="media/assets/logos/Virtualbox_logo.png" width="42">
 In order to procceed with our deeds, we need a software that can virtualize environments, moreover, we need a software whom virtualize machines.
 
 We have (little) experience in working with both VMWare & VirtualBox.
