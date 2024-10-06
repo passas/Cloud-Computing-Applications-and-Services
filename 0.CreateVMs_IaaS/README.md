@@ -19,7 +19,7 @@ In order to procceed with our deeds, we need a software that can virtualize envi
 
 We have (little) experience in working with both VMWare & VirtualBox.
 
-Although we choose the VirtualBox here, we do have the chills when it comes to this software. Despite of being not much invasive as the VMWare software, it brings a little uncertainity on the Ssh communications protocol, and as a creating NATs concerns.
+Although we choose the VirtualBox here, we do have the chills when it comes to this software. Despite of being not much invasive as the VMware software, it brings a little uncertainity on the Ssh communications protocol, and as a creating NATs concerns.
 
 Before we proceed with our experiments, we did a lot of 'ups' and 'halts' just to test some behaviors of what we could expect during our app deployments via this particular software. So far, we did observe problems in 'up' vms, as we had to go into the VirtualBox software, shut down the VM, delete it, as all of its files, and then re-up the vms. On halt operations we did see a lot of "forcing shutdowns", so it's pretty clear that those virtualizations are not good if we want to endure our deployment trough it. For now, it's enough!
 
