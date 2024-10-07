@@ -55,7 +55,13 @@ mysql:latest
 # 5. Swap container
 We do need to create a Dockerfile from scratch. We have its documentations for support, start at: https://docs.docker.com/reference/dockerfile/ .
 
-## 5.1 Download the app source code
+## 5.1 Clone the app repository
+In order to build our app container, we shall clone its repository. Furthermore, the Dockerfile will be ment to set up straight to our app folder. Moreover, the Dockerfile will handle all the dependencies from our Swap app.
+```
+git clone https://github.com/Hackathonners/swap.git
+```
+
+
 
 
 
