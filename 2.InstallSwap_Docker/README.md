@@ -55,7 +55,8 @@ mysql:latest
 # 5. Swap container
 We do need to create a Dockerfile from scratch. We have its documentations for support, start at: https://docs.docker.com/reference/dockerfile/ .
 
-## 5.1 Clone the open-source repository
+## 5.1 Download the app source code
+
 
 
 [^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
