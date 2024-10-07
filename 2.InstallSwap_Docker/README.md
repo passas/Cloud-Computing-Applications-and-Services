@@ -17,5 +17,16 @@ Those pre-requisites are intended to be managed by the IaaS itslef.
 
 It consists on the proper installation[^1], and configuration[^2] of the Docker tool.
 
+# 3. Docker Network
+In order for the 2 contianers communicate with each other, we have to establish a docker network.
+```
+docker network create <swap network name>
+```
+> Check if it's created by ```docker network list```.
+>
+> Moreover, for further inspection you can manage ```docker network inspect <swap network name>```.
+
+
+
 [^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
 [^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
