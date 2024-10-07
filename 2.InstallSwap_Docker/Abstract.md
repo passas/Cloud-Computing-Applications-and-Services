@@ -21,3 +21,11 @@ Docker is a tool that is used to automate the deployment of applications in ligh
 ## Ansible
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
 *Learning...*
+
+
+
+[^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
+
+[^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
+
+[^3]: The Docker (Software) Wikipedia page: https://en.wikipedia.org/wiki/Docker_(software) .
