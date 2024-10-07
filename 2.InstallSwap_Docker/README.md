@@ -49,7 +49,8 @@ mysql:latest
 > Moreover, you can run mysql commands as is:
 > ```
 > docker exec -i <DB_CONTAINER_NAME> mysql -u<DB_USERNAME> -p<DB_PASSWORD> <<< "SHOW DATABASES;"
-> ``` 
+> ```
+> .
 
 [^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
 [^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
