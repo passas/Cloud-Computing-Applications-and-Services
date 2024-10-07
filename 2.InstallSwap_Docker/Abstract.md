@@ -1,12 +1,12 @@
-# Abstract
+# *Abstract*
 
-In this lesson we will take a more suitable approach to the matter of the app deployment itself.
+*In this lesson we will take a more suitable approach to the matter of the app deployment itself.*
 
-Nowadays, in order to deploy an application, its deployment follow a containerized form. In this containerized form, the DevOp writes a standalone script in order to get the application ongoing, with all it's dependencies ─ requirments.
+*Nowadays, in order to deploy an application, its deployment follow a containerized form. In this containerized form, the DevOp writes a standalone script in order to get the application ongoing, with all it's dependencies ─ requirments.*
 
-Nonetheless, this isn't enough. The DevOp shall (1) certificate that, in fact, the Docker software is installed in the machine, and (2) apply some configurations, which lead to further tasks that a container can not support. It is where Ansible software come along.
+*Nonetheless, this isn't enough. The DevOp shall (1) certificate that, in fact, the Docker software is installed in the machine, and (2) apply some configurations, which lead to further tasks that a container can not support. It is where Ansible software come along.*
 
-Ansible is a tool to take care of all the previous and post orchestration required through the deployment intervenience besides the container image itslef.
+*Ansible is a tool to take care of all the previous and post orchestration required through the deployment intervenience besides the container image itslef.*
 
 ## Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
