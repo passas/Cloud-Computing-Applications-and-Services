@@ -17,5 +17,5 @@ Those pre-requisites are intended to be managed by the IaaS itslef.
 
 It consists on the proper installation[^1], and configuration[^2] of the Docker tool.
 
-[^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/ .
+[^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
 [^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/ .
