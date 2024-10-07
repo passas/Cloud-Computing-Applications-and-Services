@@ -75,7 +75,8 @@ Re-evaluate the group membership.
 newgrp docker
 ```
 
-And *voilà*...
+And *voilà*!
+
 <hr>
 
 ### References
