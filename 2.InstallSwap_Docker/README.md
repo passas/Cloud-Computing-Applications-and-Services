@@ -14,3 +14,5 @@ Those containers shall run in the same machine. Its connections shall be managed
 
 # 2. Pre-requisites
 Those pre-requisites are intended to be managed by the IaaS itslef.
+
+It consists on the proper installation of the Docker tool.
