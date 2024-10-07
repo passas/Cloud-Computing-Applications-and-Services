@@ -42,6 +42,14 @@ docker run --name <DB_CONTAINER_NAME> --net <NETWORK_NAME> -p 3306:3306 -d \
 -v mysql:/var/lib/mysql \
 mysql:latest
 ```
+> The ```-v``` option stands for the mounting volume (storage).
+>
+> Check if it's mounted by running ```docker volume ls```.
+>
+> Moreover, you can run mysql commands as is:
+> ```
+> docker exec -i <DB_CONTAINER_NAME> mysql -u<DB_USERNAME> -p<DB_PASSWORD> <<< "SHOW DATABASES;"
+> ``` 
 
 [^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
 [^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
