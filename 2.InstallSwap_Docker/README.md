@@ -1,5 +1,5 @@
 # Abstract
-Docker is a tool for manage containers.
+Docker is a tool whom manages containers.
 
 A container is instatiated by a script. When instantiated, it turns itslef into a docker image, and that image is the object who compounds a running container.
 
