@@ -12,3 +12,5 @@ In one container we want to run solely our data-base. In the another one, we wan
 
 Those containers shall run in the same machine. Its connections shall be managed by the Docker Network Manager.
 
+# 2. Pre-requisites
+Those pre-requisites are intended to be managed by the IaaS itslef.
