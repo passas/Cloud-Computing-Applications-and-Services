@@ -14,8 +14,9 @@ A container it is the most lightweight form of environment in order to run an ap
 Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence ─ that both are hosted in the same host machine, what's the amount of resource consumption from each other, their context, etc.
 
 ## 1.2 Docker
-<!--## 1.2 Docker <img src="media/docker1.png" width="48">-->
-*Learning...*
+"(...) Run anywhere."
+
+Docker is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation [^3]. 
 
 ## 1.3 Ansible
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
@@ -31,3 +32,5 @@ Appart from that, the container context is uniquely known to itself [^2]. Two co
 [^1]: The Docker webpage, at "What is a container?" resources. Accessed from https://www.docker.com/resources/what-container/ .
 
 [^2]: "What is a container?", p.7 from "Guide 2 Docker & Ansible", 2024-2025.
+
+[^3]: The Docker (Software) Wikipedia page: https://en.wikipedia.org/wiki/Docker_(software) .
