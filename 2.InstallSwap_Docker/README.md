@@ -26,7 +26,22 @@ docker network create <swap network name>
 >
 > Moreover, for further inspection you can manage the ```docker network inspect <swap network name>``` command.
 
+# 4. MySQL Database
+Docker have its own reportory of pre-build images. As MySQL being one of them, we'll pull it, and start manage our database from their.
+```
+docker image pull mysql:latest
+```
+> Hey! Check out if the pull was been able to manage by running ```docker image ls```.
 
+## 4.1 Configure
+In order to configure the container, we shall adjust the following settings to our needs.
+```
+docker run --name <DB_CONTAINER_NAME> --net <NETWORK_NAME> -p 3306:3306 -d \
+-e MYSQL_USER=<DB_USERNAME> -e MYSQL_PASSWORD=<DB_PASSWORD> \
+-e MYSQL_DATABASE=<DB_DATABASE> -e MYSQL_ALLOW_EMPTY_PASSWORD=true \
+-v mysql:/var/lib/mysql \
+mysql:latest
+```
 
 [^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/#installation-methods .
 [^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user .
