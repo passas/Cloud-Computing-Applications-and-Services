@@ -32,7 +32,7 @@ Tasks:
   - Open it via browser.
    
 ## [DevOp](2.InstallSwap_Docker)
-Automatized deployment of an app.
+Automatized deployment of an app, using the Dockerfile platform.
 
 Tasks:
   - Swap application deployment [^1].
