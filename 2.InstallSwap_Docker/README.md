@@ -15,4 +15,7 @@ Those containers shall run in the same machine. Its connections shall be managed
 # 2. Pre-requisites
 Those pre-requisites are intended to be managed by the IaaS itslef.
 
-It consists on the proper installation of the Docker tool.
+It consists on the proper installation, and configuration of the Docker tool [^1,2].
+
+[^1]: Install Docker on Ubuntu: https://docs.docker.com/engine/install/ubuntu/ .
+[^2]: Remove the need for sudo at Docker requests: https://docs.docker.com/engine/install/linux-postinstall/ .
