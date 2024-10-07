@@ -1,7 +1,7 @@
 # Abstract
 Docker is a tool whom manages containers.
 
-A container is instatiated by a script, in the docker environment it's called "Dockerfile". When the Dockerfile is instantiated, it turns itslef into a docker image, and that image is the object who compounds a running container.
+A container is instatiated by a script, in the docker environment it's called "Dockerfile". When the Dockerfile it is instantiated, it turns itslef into a docker image, and that image is the object who compounds a running container.
 
 Docker have a lot of specificities, one of them it is its Network Manager.
 
