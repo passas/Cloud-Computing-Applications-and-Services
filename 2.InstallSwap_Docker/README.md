@@ -1,3 +1,6 @@
+# 1. Introduction
+In this directory we'll intend to create, and run 2 containers simultaneosly. One for the database, and the other for the app itself.
+
 # 2. Pre-requisites
 In order to complete this lesson, we'll need two virtual machines from our provider.
 
