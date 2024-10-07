@@ -8,17 +8,17 @@
 
 *Ansible is a tool to take care of all the previous and post orchestration required through the deployment intervenience besides the container image itslef.*
 
-## Container
+## 1. Container
 A container it is the most lightweight form of environment in order to run an application in its independent self form [^1]. A container feeds himself from the host machine (operative system, and hardware) [^1].
 
 Appart from that, the container context is uniquely known to itself [^2]. Two containers in the same host, know nothing about each others existence ─ that both are hosted in the same host machine, what's the amount of resource consumption from each other, their context, etc.
 
-## Docker
+## 2. Docker
 "(...) Run anywhere."
 
 Docker is a tool that is used to automate the deployment of applications in lightweight containers so that applications can work efficiently in different environments in isolation [^3]. 
 
-## Ansible
+## 3. Ansible
 <!--## 1.3 Ansible <img src="media/ansible1.png" width="28">-->
 *Learning...*
 
