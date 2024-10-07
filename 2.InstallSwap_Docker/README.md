@@ -60,6 +60,22 @@ And that's it.
 ### Sudo
 In order for the canambert to take place, we will remove the need for ```sudo``` authentication, as leadind in the documentation [^5].
 
+Create a docker group.
+```
+sudo groupadd docker
+```
+
+Add our user to the docker group.
+```
+sudo usermod -aG docker $USER
+```
+
+Re-evaluate the group membership.
+```
+newgrp docker
+```
+
+And *voilà*...
 <hr>
 
 ### References
