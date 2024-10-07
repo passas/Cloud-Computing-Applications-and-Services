@@ -22,9 +22,9 @@ In order for the 2 contianers communicate with each other, we have to establish 
 ```
 docker network create <swap network name>
 ```
-> Check if it's created by ```docker network list```.
+> Check if it's created by running ```docker network list```.
 >
-> Moreover, for further inspection you can manage ```docker network inspect <swap network name>```.
+> Moreover, for further inspection you can manage the ```docker network inspect <swap network name>``` command.
 
 
 
