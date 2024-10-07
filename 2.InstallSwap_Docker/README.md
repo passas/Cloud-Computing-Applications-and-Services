@@ -32,7 +32,9 @@ Docker have its own reportory of pre-build images. As MySQL being one of them, w
 docker image pull mysql:latest
 ```
 > Hey! Check out if the pull was been able to manage by running
+> 
 > ```docker image ls```
+> 
 > .
 
 ## 4.1 Configure
