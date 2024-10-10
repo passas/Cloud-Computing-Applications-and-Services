@@ -1,3 +1,4 @@
+# Setup
 **Connect to a node**
 ```
 ssh vagrant@192.168.56.101
@@ -49,3 +50,19 @@ sudo systemctl enable containerd.service
 sudo systemctl disable docker.service
 sudo systemctl disable containerd.service
 ```
+
+
+# Docker network
+(In order for the containers to communicate with each other.)
+
+**Create**
+```
+docker network create swap_network
+```
+*Confirm*
+```
+docker network inspect swap_network
+```
+
+
+# Database container
