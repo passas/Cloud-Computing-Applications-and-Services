@@ -1,4 +1,4 @@
-# Setup
+# 1. Setup
 **Connect to a node**
 ```
 ssh vagrant@192.168.56.101
@@ -52,7 +52,7 @@ sudo systemctl disable containerd.service
 ```
 
 
-# Docker network
+# 2. Docker network
 (In order for the containers to communicate with each other.)
 
 **Create**
@@ -65,7 +65,7 @@ docker network inspect swap_network
 ```
 
 
-# Database container
+# 3. Database container
 
 **Download an already pre-existing image**
 ```
@@ -96,3 +96,8 @@ docker volume ls
 docker exec -i swap_db \
 mysql -umiguel -ppassinhas <<< "SHOW DATABASES;"
 ```
+
+<hr>
+
+# 4. App container
+*\*At your host machine, create the deployment Dockerfile...\**
