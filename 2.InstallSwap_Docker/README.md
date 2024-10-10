@@ -101,6 +101,7 @@ mysql -umiguel -ppassinhas <<< "SHOW DATABASES;"
 
 # 4. App container
 *\*At your host machine, create the deployment Dockerfile...\**
+
 **Copy the file to the node**
 ```
 scp Dockerfile vagrant@192.168.56.101:.
