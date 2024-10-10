@@ -63,6 +63,9 @@ docker network create swap_network
 ```
 *Confirm:*
 ```
+docker network ls
+```
+```
 docker network inspect swap_network
 ```
 
