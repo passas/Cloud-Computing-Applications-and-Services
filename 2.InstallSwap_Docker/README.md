@@ -120,3 +120,13 @@ docker build -t swap:image .
 ```
 docker image ls
 ```
+
+**Run**
+```
+docker run --name swap_app \
+--net swap_network -p 8000:8000 \
+swap:image
+```
+
+# 5. Web browser
+[http://192.168.56.101:8000](http://192.168.56.101:8000)
