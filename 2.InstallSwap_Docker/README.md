@@ -106,3 +106,8 @@ mysql -umiguel -ppassinhas <<< "SHOW DATABASES;"
 ```
 scp Dockerfile vagrant@192.168.56.101:.
 ```
+
+**Build container**
+```
+docker build -t swapp_app .
+```
