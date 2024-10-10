@@ -24,9 +24,9 @@ Manual deployment of an app.
 
 Tasks:
   - Swap application deployment [^1].
-    - Install; 
-    - Deploy;
-    - Configure.
+    1. Install; 
+    2. Deploy;
+    3. Configure.
 
 *Goal*:
   - Open it via browser.
@@ -36,9 +36,9 @@ Automatized deployment of an app, using Docker (PaaS).
 
 Tasks:
   - Swap application deployment [^1].
-    - Install; 
-    - Deploy;
-    - Configure.
+    1. Install; 
+    2. Deploy;
+    3. Configure.
 
 *Goal*:
   - Open it via browser.
@@ -48,13 +48,13 @@ Automatized deployment of an app, using Ansible.
 
 Tasks:
   - Configure PaaS in our IaaS;
-    - Install Docker;
-    - Configure Docker Network.
+    1. Install Docker;
+    2. Configure Docker Network.
       
   - Swap application deployment [^1].
-    - Install; 
-    - Deploy;
-    - Configure.
+    1. Install; 
+    2. Deploy;
+    3. Configure.
 
 *Goal*:
   - Open it via browser.
