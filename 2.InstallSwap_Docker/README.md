@@ -34,7 +34,7 @@ sudo groupadd docker
 newgrp docker
 ```
 
-*Test*
+*Test:*
 ```
 docker run hello-world
 ```
@@ -59,10 +59,40 @@ sudo systemctl disable containerd.service
 ```
 docker network create swap_network
 ```
-*Confirm*
+*Confirm:*
 ```
 docker network inspect swap_network
 ```
 
 
 # Database container
+
+**Download an already pre-existing image**
+```
+docker image pull mysql:latest
+```
+*Confirm:*
+```
+docker image ls
+```
+
+**Run**
+```
+docker run --name swap_db --net swap_network -p 3306:3306 -d \
+-e MYSQL_USER=miguel -e MYSQL_PASSWORD=passinhas \
+-e MYSQL_DATABASE=swap -e MYSQL_ALLOW_EMPTY_PASSWORD=true \
+-v mysql:/var/lib/mysql \
+mysql:latest
+```
+> `-e` stands for .env configs;
+> 
+> `-v` stands for a physical volume creation (for storage in this case).
+
+*Confirm:*
+```
+docker volume ls
+```
+```
+docker exec -i swap_db \
+mysql -umiguel -ppassinhas <<< "SHOW DATABASES;"
+```
