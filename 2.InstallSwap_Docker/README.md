@@ -111,3 +111,7 @@ scp Dockerfile vagrant@192.168.56.101:.
 ```
 docker build -t swapp_app .
 ```
+*Confirm:*
+```
+docker image ls
+```
