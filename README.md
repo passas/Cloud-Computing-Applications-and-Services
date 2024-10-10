@@ -32,7 +32,7 @@ Tasks:
   - Open it via browser.
    
 ## [DevOp](2.InstallSwap_Docker)
-Automatized deployment of an app, using the Dockerfile platform (PaaS).
+Automatized deployment of an app, using Docker (PaaS).
 
 Tasks:
   - Swap application deployment [^1].
@@ -44,7 +44,7 @@ Tasks:
   - Open it via browser.
 
 ## [DevOp](3.InstallSwap_Ansible)
-Automatized deployment of an app, using the Ansible orchestration.
+Automatized deployment of an app, using Ansible.
 
 Tasks:
   - Configure PaaS in our IaaS;
