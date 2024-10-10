@@ -128,5 +128,10 @@ docker run --name swap_app \
 swap:image
 ```
 
+*Confirm*
+```
+docker ps
+```
+
 # 5. Web browser
 [http://192.168.56.101:8000](http://192.168.56.101:8000)
