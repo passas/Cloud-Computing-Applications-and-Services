@@ -100,7 +100,7 @@ mysql -umiguel -ppassinhas <<< "SHOW DATABASES;"
 <hr>
 
 # 4. App container
-*\*At your host machine, create the deployment Dockerfile...\**
+*At your host machine, create the deployment Dockerfile...*
 
 **Copy the file to the node**
 ```
