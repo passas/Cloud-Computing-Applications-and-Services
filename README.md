@@ -17,7 +17,7 @@ Infrastructure as a Service (IaaS).
 
 Tasks:
   - Create 5 VMs.
-    - *Who's gonna use them?*
+    1. *Who's gonna use them?*
 
 ## [Developer](1.InstallSwap_Manually)
 Manual deployment of an app.
